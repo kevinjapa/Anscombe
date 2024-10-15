@@ -1,0 +1,36 @@
+---
+title: "datasaurus"
+author: "Ing. Kevin Japa"
+date: "2024-09-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## DataSauros
+
+Primero, cargamos las bibliotecas necesarias. Estas incluyen `tidyverse` para el manejo y manipulación de datos, `datasauRus` que contiene el conjunto de datos, y `ggplot2` para visualización.
+
+```{r cars}
+library("tidyverse")
+library(datasauRus)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+dfgroup<-datasaurus_dozen %>%
+  filter(dataset=="star")
+```
+Graficamos el conjunto Star agregamos regresion lineal en la figura
+```{r}
+# Graficar los puntos y agregar la regresión lineal
+ggplot(dfgroup, aes(x = x, y = y)) +
+  geom_point(color = "blue") +  # Graficar los puntos
+  geom_smooth(method = "lm", color = "red", se = FALSE) +  # Añadir la regresión lineal
+  labs(title = "Puntos y regresión lineal del dataset 'star'",
+       x = "X",
+       y = "Y") +
+  theme_minimal()
