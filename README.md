@@ -1,9 +1,9 @@
 ![Ejemplo de imagen](https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_Universidad_Polit%C3%A9cnica_Salesiana_del_Ecuador.png)
-#UNIVERSIDAD POLITECNICA SALESIANA#
-Carrera: Computacion.
-Realizado por: Kevin Japa
-Fecha: 24 de Abril de 2024    
-Periodo: 65.
+# **UNIVERSIDAD POLITECNICA SALESIANA**  
+Carrera: Computacion.  
+Realizado por: Kevin Japa. 
+Fecha: 24 de Abril de 2024.
+Periodo: 65  
 
 El **Cuarteto de Anscombe** es un conjunto de cuatro datasets que fueron diseñados por el estadístico Francis Anscombe en 1973. Estos datasets tienen valores estadísticos descriptivos prácticamente idénticos, como la media, la varianza, la correlación y la ecuación de la regresión lineal. Sin embargo, al graficarlos, las distribuciones muestran patrones completamente diferentes. La idea principal detrás de este cuarteto es ilustrar la importancia de visualizar los datos antes de realizar análisis estadísticos, ya que los estadísticos resumen no siempre capturan toda la información relevante.
 
